@@ -32,6 +32,11 @@ vim.opt.ignorecase = true
 -- })
 
 
+
+-- If you are using Linux, you need to install xclip if using X11 or wl-copy and wl-paste if using Wayland.
+vim.o.clipboard = "unnamedplus"
+
+
 vim.diagnostic.config({
   virtual_text = true, -- Turn off inline diagnostics
 })

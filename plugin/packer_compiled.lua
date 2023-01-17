@@ -185,6 +185,11 @@ _G.packer_plugins = {
     path = "/home/zergus/.local/share/nvim/site/pack/packer/start/undotree",
     url = "https://github.com/mbbill/undotree"
   },
+  ["vim-bookmarks"] = {
+    loaded = true,
+    path = "/home/zergus/.local/share/nvim/site/pack/packer/start/vim-bookmarks",
+    url = "https://github.com/MattesGroeger/vim-bookmarks"
+  },
   ["vim-moonfly-colors"] = {
     loaded = true,
     path = "/home/zergus/.local/share/nvim/site/pack/packer/start/vim-moonfly-colors",
